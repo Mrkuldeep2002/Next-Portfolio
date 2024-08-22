@@ -38,6 +38,8 @@ const HeroSection = () => {
           </h1>
 
           <p className=" text-[#AD7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            
+        {/* <span>Kya dhund Raha hai lodu</span> */}
           Web and Mern Stack developer , pursuing MCA from Amity University Noida 
           {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span> Web and MernStack-Developer <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span>  Amity University , Noida <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">| <b>Open to Work</b> |</span> Biography Enthusiast <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span> */}
         
@@ -50,7 +52,7 @@ const HeroSection = () => {
             >
               Hire Me
             </Link>
-            <Link href={''} className="px-1 py-1 w-full inline-block sm:w-fit rounded-full bg-gradient-to-br from-secondary-500 to-primary-500 hover:bg-slate-800 text-white  mt-3">
+            <Link href={'https://drive.google.com/file/d/1TXefavqosiscp7nuG5gTPryXM5JJ7QdN/view?usp=sharing'} className="px-1 py-1 w-full inline-block sm:w-fit rounded-full bg-gradient-to-br from-secondary-500 to-primary-500 hover:bg-slate-800 text-white  mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
@@ -62,7 +64,7 @@ const HeroSection = () => {
             <Image
               src="/images/hero-image.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
               width={300}
               height={300}
             />
