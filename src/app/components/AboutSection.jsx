@@ -28,15 +28,13 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2  font-bold">
         <li className="">
-          <div>
-            <span className="font-bold text-l">• </span> Master of Computer
+          <div> Master of Computer
             Application
           </div>
           <span className="text-primary-500 font-bold">[2024 - 2026]</span>
         </li><br/>
         <li className="">
-          <div>
-            <span className="font-bold text-l">• </span> Bachelor of Computer
+          <div>Bachelor of Computer
             Application
           </div>
           <span className="text-primary-500">[2023 - 2025]</span>
@@ -74,11 +72,11 @@ const AboutSection = () => {
           src="/images/about-image.png"
           width={500}
           height={500}
-          className="rounded-xl sepia  "
+          className="rounded-xl sepia hidden md:block "
           alt=""
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-primary-500 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience

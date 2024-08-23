@@ -32,6 +32,15 @@ const projectsData = [
     previewUrl: "https://kuldeepsinghrathore.netlify.app",
   },
   {
+    id: 6,
+    title: "Dice Game",
+    description: "A fun dice-rolling game with a user-friendly interface",
+    image: "/images/projects/project-6.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Mrkuldeep2002/DiceGame",
+    previewUrl: "https://dice-rollling-game.netlify.app",
+  },
+  {
     id: 3,
     title: "Digital Clock",
     description: "A real-time digital clock with a sleek design.",
@@ -58,15 +67,7 @@ const projectsData = [
     gitUrl: "https://github.com/Mrkuldeep2002/Wheather-App",
     previewUrl: "https://check-wheather.netlify.app",
   },
-  {
-    id: 6,
-    title: "Dice Game",
-    description: "A fun dice-rolling game with a user-friendly interface",
-    image: "/images/projects/project-6.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/Mrkuldeep2002/DiceGame",
-    previewUrl: "https://dice-rollling-game.netlify.app",
-  },
+ 
   {
     id: 7,
     title: "Crypto Dashboard Design",

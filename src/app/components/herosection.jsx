@@ -41,8 +41,6 @@ const HeroSection = () => {
             
         {/* <span>Kya dhund Raha hai lodu</span> */}
           Web and Mern Stack developer , pursuing MCA from Amity University Noida 
-          {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span> Web and MernStack-Developer <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span>  Amity University , Noida <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">| <b>Open to Work</b> |</span> Biography Enthusiast <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">|</span> */}
-        
           </p>
           <div className="">
             
@@ -59,7 +57,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </motion.div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        <div className=" col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-transparent w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/profile.png"
