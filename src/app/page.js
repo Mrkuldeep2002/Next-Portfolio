@@ -13,7 +13,7 @@ export default function Home() {
           <Navbar />
         <div className="container mx-auto px-12 py-4 mt-24">
         <HeroSection / >
-        <AchievementsSection />
+        {/* <AchievementsSection /> */}
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
