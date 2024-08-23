@@ -69,7 +69,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Crypto Dashboard",
+    title: "Crypto Dashboard Design",
     description: "A dashboard displaying cryptocurrency data and trends",
     image: "/images/projects/project-7.png",
     tag: ["All", "Web"],

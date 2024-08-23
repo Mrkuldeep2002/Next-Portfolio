@@ -26,20 +26,20 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2 text-[9px] md:text-lg font-bold">
-        <li className="flex  justify-between">
+      <ul className="list-disc pl-2  font-bold">
+        <li className="">
           <div>
             <span className="font-bold text-l">• </span> Master of Computer
             Application
           </div>
-          <span className="text-primary-300 font-bold">[2024 - 2026]</span>
+          <span className="text-primary-500 font-bold">[2024 - 2026]</span>
         </li><br/>
-        <li className="flex  justify-between">
+        <li className="">
           <div>
             <span className="font-bold text-l">• </span> Bachelor of Computer
             Application
           </div>
-          <span className="text-primary-300">[2023 - 2025]</span>
+          <span className="text-primary-500">[2023 - 2025]</span>
         </li>
         <br />
       </ul>
@@ -50,7 +50,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full Stack  Development from <b className="text-primary-300"> TechnoGlobe </b></li>
+        <li>Full Stack  Development from <b className="underline"> TechnoGlobe </b></li>
      
       </ul>
     ),
@@ -82,8 +82,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            working with JavaScript, React, Redux, Node.js, Express, SQL,
+            MongoDB, HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications.
           </p>
