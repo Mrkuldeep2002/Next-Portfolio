@@ -57,7 +57,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="z-10">
         {isSuccess ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
